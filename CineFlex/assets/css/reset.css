@@ -1,37 +1,29 @@
-{
+/* --- GLOBAL RESET --- */
+* {
     margin: 0;
     padding: 0;
+    /* Apply transition globally for smooth effects */
     transition: all 0.5s ease;
 }
 
-
-
-
+/* Use border-box model globally */
 *, *::before, *::after { box-sizing: border-box;}
 
-
-
-
+/* Set global font */
 html {font-family: var(--ff-inter);}
 
-
-
-
+/* Heading colors */
 h1, h2, h3, h4, h5, h6 { color: var( --white);}
 
-
-
-
+/* Set base body styles */
 body {
-    background: var(-rich-balck-fogra-29);
-    color: var(--off-white);
-    -webkit-font-smoothing: antialiased;
-
+  background: var(--oxford-blue);
+  color: var(--off-white);
+  /* Smoother font rendering */
+  -webkit-font-smoothing: antialiased;
 }
 
-
-
-
+/* Image styles */
 img {
     display: block;
     width: 100%;
@@ -40,9 +32,7 @@ img {
     object-fit: cover;
 }
 
-
-
-
+/* Input, button, select reset */
 input, button, select {
     font: inherit;
     background: none;
@@ -50,29 +40,23 @@ input, button, select {
     outline: none;
 }
 
-
-
+/* Button styles */
 button {
     color: var(--off-white);
     cursor: pointer;
 }
 
-
-
-
+/* List reset */
 li {list-style: none;}
 
-
-
+/* Anchor/Link base styles */
 a {
     text-decoration: none;
     display: block;
     color: var(--off-white);
 }
 
-
-
-
+/* --- CUSTOM SCROLLBAR STYLING --- */
 ::-webkit-scrollbar {
     background: transparent;
     border-left: 1px solid var(--oxford-blue);
