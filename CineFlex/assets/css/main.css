@@ -160,7 +160,7 @@ nav { margin-right: 200px;} /* Push actions away from links */
 .banner-card .card-info .quality {
     background: var(--azure);
     padding: 2px 5px;
-    border-radius: 5px;;
+    border-radius: 5px;
     font-weight: var(--fw-7);        
 }
 
@@ -283,7 +283,7 @@ input ~ .checked-radio-bg {
 .movie-card .card-overlay {
     position: absolute;
     inset: 0;
-    /* opacity: 0; */
+    opacity: 0; 
     backdrop-filter: blur(5px); 
 }
 
@@ -306,6 +306,9 @@ input ~ .checked-radio-bg {
     background: var(--oxford-blue);
     left: 15px;
 }
+
+
+.movie-card .bookmark:hover { color: var(--yellow); }
 
 
 .movie-card .rating {
@@ -346,3 +349,36 @@ input ~ .checked-radio-bg {
 
 
 .movie-card:hover :is(.bookmark, .rating, .play) { --scale: 1; }
+
+
+.movie-card .card-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-5);
+    margin-bottom: 5px;
+}
+
+
+.movie-card:hover .card-title {  color: var(--light-azure); }
+
+
+.movie-card .card-info {
+    display: flex;
+    font-size: var(--fs-x-sm);
+    font-weight: var(--fw-5);
+}
+
+
+.movie-card .genre { margin-right: 8px; }
+
+.movie-card .year { color: var(--rich-black-fogra-30); }
+
+.load-more {
+    background: var(--oxford-blue);
+    display: block;
+    padding: 20PX 50PX;
+    margin: auto;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-5);
+    border-radius: 15px;
+    color: var(--white);
+}
