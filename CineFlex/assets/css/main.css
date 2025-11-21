@@ -587,7 +587,7 @@ footer {
 }
 
 
-.social-link { display: inline-block; }
+.social-link { display: flex; }
 
 
 .social-link ion-icon {
@@ -636,3 +636,4 @@ ul .link-item:not(:last-child) { margin-bottom: 10px; }
 
 
 .wrapper a:not(:last-child) { margin-right: 30px; }
+
