@@ -1,4 +1,4 @@
-# CineFlix-7hours
+# CineFlix-11hours
 
 Framework for a website where you can watch Tv Shows And Movies.
 Built with pure coding knowledge and no AI Generated Code
